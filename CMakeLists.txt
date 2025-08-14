@@ -3,7 +3,7 @@ project(enginelib)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(enginelib SHARED enginelib.cpp)
+add_library(enginelib SHARED enginelib.cpp enginelib.h)
 
 # Specify include directories for consumers
 target_include_directories(enginelib PUBLIC
